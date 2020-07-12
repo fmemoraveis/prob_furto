@@ -2,6 +2,10 @@ import streamlit as st
 
 import pandas as pd
 import numpy as np
+from scipy.sparse import csr_matrix
+import string
+from fuzzywuzzy import fuzz
+from sklearn.neighbors import NearestNeighbors
 import warnings
 warnings.filterwarnings("ignore")
 
